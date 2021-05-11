@@ -1,14 +1,15 @@
 /* The side navigation menu */
 .sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
+    height: 30%; /* 100% Full-height */
+    width: 14.5%; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    z-index: 5; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    opacity: 96%; /*Transparent effect*/
+    opacity: 100%; /*Transparent effect*/
     text-align: center;
-    background-color: #111; /* Black*/
+    background-color: rgba(17, 17, 17, 0); /* Black*/
+    overflow-y:hidden;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 5px; /* Place content 5pixels from the top */
     transition: 1.1s; /* 0.5 second transition effect to slide in the sidenav */
@@ -30,6 +31,10 @@
     color: #818181;
     display: block;
     transition: 0.3s;
+    top: 47%;
+    left: 14.7%;
+    width: 80%;
+    height: 90%;
   }
   
   .sidenav h1 {

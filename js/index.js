@@ -23,7 +23,7 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}    
   slides[slideIndex-1].style.display = "block";  
-  setTimeout(showSlides, 4000); // Change image every 4 seconds
+  setTimeout(showSlides, 6000); // Change image every 6 seconds
 }
 
 function openNav() {
@@ -35,16 +35,6 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0%";
   }
   
-// function listAd(){
-//   for (i = 0; i < slidesTextRef.length; i++){
-//   var createText = document.createElement("a");
-//   var createTextEditor = document.createElement("input");
-//   createTextEditor.setAttribute("class", "inputField");
-//   editAdRef.appendChild(createText);
-//   editAdRef.appendChild(createTextEditor);
-//   createText.innerHTML = "Edit ad " + i;
-//   }
-// }
 function DoTheThing(){
   NavBtnRef.style.display = "block";
 }
@@ -54,3 +44,4 @@ document.addEventListener('keydown', e => {
       s = document.getElementById("navBtn").style.display="block";
   }
 });
+
