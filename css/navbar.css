@@ -1,6 +1,6 @@
 /* The side navigation menu */
 .sidenav {
-    height: 30%; /* 100% Full-height */
+    height: 100%; /* 100% Full-height */
     width: 14.5%; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 5; /* Stay on top */
@@ -31,12 +31,37 @@
     color: #818181;
     display: block;
     transition: 0.3s;
-    top: 47%;
+    top: 30%;
     left: 14.7%;
     width: 80%;
-    height: 90%;
+    height: 100%;
   }
   
+  #timeRef{
+    color: #ffffff;
+    padding-left: 11%;
+    font-size: 18px;
+  }
+
+  #dateRef{
+    color: #ffffff;
+    padding-left: 10%;
+    font-size: 18px;
+  }
+
+  #dayRef{
+    color: #ffffff;
+    padding-left: 10%;
+    padding-top: 7%;
+    font-size: 18px;
+  }
+  #displayPollution{
+    width: 100%;
+    color: #ffffff;
+    font-size: 18px;
+    padding-left: 10%;
+    padding-top: 108%;
+  } 
   .sidenav h1 {
     padding: 8px 8px 8px 32px;
     font-size: 35px;

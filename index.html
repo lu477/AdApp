@@ -8,7 +8,7 @@
 
 </head>
 
-<body>
+<body onload="init()">
 
   <button  id="navBtn" onclick="openNav()" style="display: none;">open</button>
 
@@ -60,15 +60,17 @@
     <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
     <!-- <h1></h1> -->
     <a class="weatherwidget-io" href="https://forecast7.com/en/44d2719d89/valjevo/" data-label_1="VALJEVO" data-label_2="WEATHER" data-mode="Current" data-theme="original" data-basecolor="rgba(95, 93, 232, 0)" >VALJEVO WEATHER</a>
+    <p id="dayRef"></p>
+    <p id="timeRef"></p>
+    <p id="dateRef"></p>
+    <p id="displayPollution"> </p>
+    
     <!-- <button>Create new ad</button>
-    <button>Remove ad</button> -->
+    <button>Remove ad</button>
     <div id="editAd">
-    <!--  -->
-    </div>
+    </div> -->
 </div>
-<script>
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-</script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');</script>
 <script src="js/index.js"></script>
 </body>
 </html> 
